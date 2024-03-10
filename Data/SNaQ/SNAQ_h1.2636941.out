@@ -1,0 +1,31 @@
+Job: SNAQ_h1 with ID 2636941
+Running on c3cpu-c15-u3-1.rc.int.colorado.edu
+Job started at 06:06:04 Wed 09 Aug 2023
+Directory is /home/pepe8426/Scripts/NewDatasetAnalyses
+Using 10 processors across 1 nodes
+[ Info: will run SNaQ with h=1, # of runs=10, seed=69904, output will go to: net1_10runs
+1215.0 gene trees per 4-taxon set
+optimization of topology, BL and inheritance probabilities using:
+ hmax = 1,
+ tolerance parameters: ftolRel=1.0e-6, ftolAbs=1.0e-6,
+                       xtolAbs=0.001, xtolRel=0.01.
+ max number of failed proposals = 75, liktolAbs = 1.0e-6.
+rootname for files: net1_10runs
+BEGIN: 10 runs on starting tree (FDEN,FAPA,(PEPA,(FABR,((BOER,((PAXI,(PESE,PEEX)45.79:0.1695213936149855)90.53:1.8260379577102868,(PCOR,(PINT,(PBON,PSCH)39.38:0.12142645777245206)42.82:0.16062548436050003)60:0.5067561242534416)90.47:1.8575653249891428)81.74:1.2468000984649952,(CAPY,(CACA,(CASE,(((CAHE,CAOV):0.018242779348537207,CATH)34.16:0.012245879771229953,CAIR)34.01:0.09607584488687666)39.69:0.0906478560748585)39.43:1.8432201768467347)92.3:1.647994504842708)89.67:1.234792339944835)80.93:0.15795632645538518)43.17:0.12369662135195314)40.76;
+       using 11 processors
+2023-08-09 6:8:38.48
+      From worker 2:	seed: 69904 for run 1, 2023-08-09 6:8:45.351
+      From worker 3:	seed: 38573 for run 2, 2023-08-09 6:8:45.365
+      From worker 11:	seed: 2758 for run 4, 2023-08-09 6:8:45.533
+      From worker 5:	seed: 3355 for run 5, 2023-08-09 6:8:45.583
+      From worker 8:	seed: 17697 for run 8, 2023-08-09 6:8:45.727
+      From worker 4:	seed: 80988 for run 10, 2023-08-09 6:8:45.735
+      From worker 6:	seed: 48465 for run 6, 2023-08-09 6:8:45.806
+      From worker 7:	seed: 58231 for run 9, 2023-08-09 6:8:45.932
+      From worker 9:	seed: 79448 for run 3, 2023-08-09 6:8:47.781
+      From worker 10:	seed: 63373 for run 7, 2023-08-09 6:8:47.97
+best network and networks with different hybrid/gene flow directions printed to .networks file
+
+MaxNet is (FDEN,FAPA,(PEPA,(FABR,((BOER,((PAXI,(PESE,PEEX)45.79:0.17009148409523195)90.53:1.8261713182119115,((PCOR,((PSCH,PBON)42.82:0.12162805730427036,PINT)39.38:0.16070736790854728)60:0.4858876097579005,#H35:0.043109018117832736::0.008184805466511538):0.021367359237901992)90.47:1.9648459597289882)81.74:1.3297430172809763,(CAPY,((CACA,(CASE,((CATH,CAIR)34.16:6.0138011313189e-5,(CAHE,CAOV):0.026825716853913998)34.01:0.10085831255275249)39.69:0.0910568509821042)39.43:0.2399116781855207)#H35:1.9826047778659732::0.9918151945334884)92.3:1.8794508720107503)89.67:1.2218391028928537)80.93:0.1573469287876598)43.17:0.1240934406943155)40.76; 
+with -loglik 724.4661130815608
+Job finished at 15:17:01 Wed 09 Aug 2023

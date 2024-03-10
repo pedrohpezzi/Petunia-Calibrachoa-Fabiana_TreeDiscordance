@@ -1,0 +1,33 @@
+Job: SNAQ_h3 with ID 2643722
+Running on c3cpu-a7-u30-3.rc.int.colorado.edu
+Job started at 06:47:17 Thu 10 Aug 2023
+Directory is /home/pepe8426/Scripts/NewDatasetAnalyses
+Using 10 processors across 1 nodes
+[ Info: will run SNaQ with h=3, # of runs=10, seed=95853, output will go to: net3_10runs
+1215.0 gene trees per 4-taxon set
+optimization of topology, BL and inheritance probabilities using:
+ hmax = 3,
+ tolerance parameters: ftolRel=1.0e-6, ftolAbs=1.0e-6,
+                       xtolAbs=0.001, xtolRel=0.01.
+ max number of failed proposals = 75, liktolAbs = 1.0e-6.
+rootname for files: net3_10runs
+BEGIN: 10 runs on starting tree (FDEN,(PEPA,(((BOER,((PAXI,(PESE,PEEX)45.79:0.1690566145021171)90.53:1.8262789644533515,((PCOR,((PSCH,PBON)42.82:0.1232825811590438,PINT)39.38:0.1601767392712713)60:0.4864573431980236,#H35:0.7732504503469882::0.007972242779652663):0.020449082274235843)90.47:1.9635342198482018)81.74:1.3285613166813963,(CAPY,((CACA,(CASE,(CAIR,((CAHE,CAOV):0.022387905848047927,CATH)34.01:0.008654647055015325)34.16:0.09763842947612207)39.69:0.09005744605239513)39.43:0.20674292658787588)#H35:2.0203714201973786::0.9920277572203473)92.3:1.8782087649700367)89.67:1.1869783489170345,(FABR)#H36:::0.9182450371709268)80.93:0.19490604548431933)43.17:0.1331605006543894,(FAPA,#H36:::0.0817549628290732):0.7443687135107093)40.76;
+       using 11 processors
+2023-08-10 6:48:51.797
+      From worker 5:	seed: 95853 for run 1, 2023-08-10 6:48:57.471
+      From worker 8:	seed: 90957 for run 3, 2023-08-10 6:48:57.535
+      From worker 10:	seed: 89940 for run 2, 2023-08-10 6:48:57.546
+      From worker 4:	seed: 78615 for run 4, 2023-08-10 6:48:57.656
+      From worker 3:	seed: 99001 for run 5, 2023-08-10 6:48:57.715
+      From worker 11:	seed: 83680 for run 8, 2023-08-10 6:48:57.773
+      From worker 6:	seed: 71387 for run 6, 2023-08-10 6:48:57.851
+      From worker 7:	seed: 52562 for run 7, 2023-08-10 6:48:57.938
+      From worker 9:	seed: 31248 for run 9, 2023-08-10 6:48:57.973
+      From worker 2:	seed: 56274 for run 10, 2023-08-10 6:48:58.036
+best network and networks with different hybrid/gene flow directions printed to .networks file
+the network obtained by putting the new hybrid in node -10 is not good, inCycle,gammaz,containRoot: Bool[1, 1, 0], we will skip it
+the network obtained by putting the new hybrid in node 34 is not good, inCycle,gammaz,containRoot: Bool[1, 1, 0], we will skip it
+
+MaxNet is (PESE,PEEX,(PAXI,((PCOR,((PSCH,(PBON,#H37:::0.1953968191056858):0.11450139778179756)42.82:0.10260775111031582,PINT)39.38:0.24218121469007334)60:0.7620376456503836,((#H35:7.290444559698078::0.009098413501620646,(BOER,((CAPY,((CACA,(CASE,((CATH,(CAOV,CAHE):0.02876546068785774)34.01:0.004173434123905243,CAIR)34.16:0.09728420253590761)39.69:0.09194441047173803)39.43:0.2911681641689076)#H35:1.9454695691826327::0.9909015864983793)92.3:1.890972166367822,((FABR)#H36:::0.9220364444889891,(PEPA,(FDEN,(FAPA,#H36:::0.07796355551101085):0.896472068295284)40.76:0.13427251852785685)43.17:0.19479194408147665)80.93:1.1854522960568563)89.67:1.3328521987323423)81.74:1.8563153357687516):0.16976647928997243)#H37:::0.8046031808943142)90.47:1.6864456513906658)90.53:0.16858935178052775)45.79; 
+with -loglik 646.2237158006756
+Job finished at 03:10:26 Fri 11 Aug 2023
