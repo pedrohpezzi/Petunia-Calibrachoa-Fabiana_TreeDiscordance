@@ -37,11 +37,13 @@ Scripts and data associated with the publication on tree discordance and hybridi
 
 [**16**](Scripts/16_QuiBL.sh) Detect hybridization with [QuiBL](Data/QuiBL).
 
+[**17**](Scripts/17_TWISST.py) Calculate topology weight with [TWISST](Data/TWISST).
+
 ## Network reconstruction
 
-[**17**](Scripts/17_SNaQ.sh) Infer phylogenetic network with [SNaQ](Data/SNaQ).
+[**18**](Scripts/18_SNaQ.sh) Infer phylogenetic network with [SNaQ](Data/SNaQ).
 
-[**18**](Scripts/18_PhyloNet.sh) Infer phylogenetic network with [PhyloNet](Data/PhyloNet).
+[**19**](Scripts/19_PhyloNet.sh) Infer phylogenetic network with [PhyloNet](Data/PhyloNet).
 
-[**19**](Scripts/19_CalculateLhoodPhyloNet.sh) Calculate the [likelihood](Data/PhyloNet/Likelihood) of the PhyloNet networks.
+[**20**](Scripts/20_CalculateLhoodPhyloNet.sh) Calculate the [likelihood](Data/PhyloNet/Likelihood) of the PhyloNet networks.
 
