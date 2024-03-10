@@ -7,7 +7,7 @@
 #SBATCH --mail-user=pedrohenriquepezzi@gmail.com
 #SBATCH --mail-type=ALL
 #SBATCH --mem=10gb
-#SBATCH --output=/scratch/alpine/pepe8426/PCF/ASTRAL/ASTRAL.%j.out
+#SBATCH --output=/scratch/alpine/pepe8426/PFC/ASTRAL/ASTRAL.%j.out
 
 #Display the job context
 echo Job: $SLURM_JOB_NAME with ID $SLURM_JOB_ID
@@ -17,7 +17,7 @@ echo Directory is `pwd`
 echo Using $SLURM_NTASKS processors across $SLURM_NNODES nodes
 
 #Assign path variables
-DIRECTORY=/scratch/alpine/pepe8426/PCF/ASTRAL
+DIRECTORY=/scratch/alpine/pepe8426/PFC/ASTRAL
 
 #Load modules
 module purge
