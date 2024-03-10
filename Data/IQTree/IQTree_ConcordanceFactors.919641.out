@@ -1,0 +1,159 @@
+Job: IQTree_CF with ID 919641
+Running on c3cpu-c11-u34-4.rc.int.colorado.edu
+Job started at 00:00:40 Wed 08 Mar 2023
+Directory is /home/pepe8426/Scripts/Analyses
+Using 32 processors across 1 nodes
+IQ-TREE multicore version 2.2.0 COVID-edition for Linux 64-bit built Jun  1 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    c3cpu-c11-u34-4.rc.int.colorado.edu (AVX2, FMA3, 251 GB RAM)
+Command: /projects/pepe8426/software/iqtree-2.2.0-Linux/bin/iqtree2 -t /scratch/alpine/pepe8426/DataSet_woCEXC/NT_Aligments/SuperMatrix/IQTree/SuperMatrix_PFCOut.partitions_iqtree.txt.treefile --gcf /scratch/alpine/pepe8426/DataSet_woCEXC/NT_Aligments/SuperMatrix/PFC_loci.treefile -s /scratch/alpine/pepe8426/DataSet_woCEXC/NT_Aligments/SuperMatrix/SuperMatrix_PFCOut.fasta --scf 100 --prefix PFC_Concord
+Seed:    946839 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Mar  8 00:00:45 2023
+Kernel:  AVX+FMA - 1 threads (32 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 32 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /scratch/alpine/pepe8426/DataSet_woCEXC/NT_Aligments/SuperMatrix/SuperMatrix_PFCOut.fasta ... Fasta format detected
+Reading fasta file: done in 7.02389 secs using 88.39% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 7.04594 secs using 66.7% CPU
+Alignment has 117 sequences with 5687285 columns, 1854959 distinct patterns
+1632897 parsimony-informative, 230614 singleton sites, 3823773 constant sites
+       Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.71283 secs using 99.08% CPU
+   1  HUTE1   19.14%    failed      0.00%
+   2  CAEG3   19.91%    failed      0.00%
+   3  CAOV3   24.80%    failed      0.00%
+   4  BRCU1   26.78%    failed      0.00%
+   5  BRCU2   26.92%    failed      0.00%
+   6  BRCU3   27.08%    failed      0.00%
+   7  FAFR1   21.80%    failed      0.59%
+   8  FAFR3   21.85%    failed      0.26%
+   9  FAFR2   21.89%    failed      0.30%
+  10  CAEL3   22.03%    failed      0.00%
+  11  CACA3   19.57%    failed      0.02%
+  12  CAPY1   21.30%    failed      0.00%
+  13  CAPY2   21.48%    failed      0.00%
+  14  CAPY3   22.32%    failed      0.00%
+  15  CPAR2   43.54%    failed      0.00%
+  16  CPAR1   43.56%    failed      0.00%
+  17  CAOV1   26.13%    failed      0.03%
+  18  CAOV2   25.14%    failed      0.00%
+  19  BOER1   18.87%    failed      0.00%
+  20  BOER2   18.91%    failed      0.00%
+  21  BOER3   18.98%    failed      0.00%
+  22  PLNY1   27.82%    failed      0.00%
+  23  PLNY3   28.04%    failed      0.00%
+  24  PLNY2   27.83%    failed      0.00%
+  25  HUTE3   19.24%    failed      0.00%
+  26  HUTE2   19.23%    failed      0.00%
+  27  CPAR3   43.55%    failed      0.00%
+  28  CAEG1   19.54%    failed      0.00%
+  29  CAEG2   19.62%    failed      0.00%
+  30  CAPU1   18.80%    passed      6.57%
+  31  CAPU2   18.86%    failed      2.97%
+  32  CAPU3   19.27%    failed      1.31%
+  33  PEPA2   14.88%    failed      0.00%
+  34  PEPA3   15.48%    failed      0.00%
+  35  PEPA1   15.02%    failed      0.00%
+  36  FAVI1   23.63%    failed      0.01%
+  37  FADE1   21.52%    failed      0.00%
+  38  FADE2   21.73%    failed      0.00%
+  39  FADE3   22.05%    failed      0.00%
+  40  FAPA3   18.59%    passed     48.88%
+  41  FAPA1   18.52%    passed     67.23%
+  42  FAPA2   18.60%    passed     50.80%
+  43  PINT1   24.77%    passed     58.29%
+  44  PINT3   24.62%    failed      0.23%
+  45  PINT2   24.64%    passed     10.79%
+  46  PINF3   21.28%    failed      0.00%
+  47  PSCH3   27.62%    passed     29.76%
+  48  PSCH2   27.70%    passed     17.74%
+  49  PINF1   21.37%    failed      0.00%
+  50  PINF2   21.53%    failed      0.00%
+  51  PSCH1   27.50%    passed     46.32%
+  52  PEEX1   25.71%    passed     48.42%
+  53  PEEX2   25.74%    passed     45.12%
+  54  PEEX3   25.76%    passed     49.23%
+  55  PAXI1   23.54%    failed      0.00%
+  56  PESE1   26.61%    passed     23.41%
+  57  PAXI3   23.63%    failed      0.00%
+  58  PAXI2   23.38%    failed      0.00%
+  59  PALT1   24.21%    passed     65.86%
+  60  PALT2   24.33%    passed     58.20%
+  61  PBON2   23.53%    passed     86.37%
+  62  PALT3   24.30%    passed     53.42%
+  63  PBON1   23.49%    passed     88.03%
+  64  PEIN1   24.30%    passed     16.85%
+  65  PCOR1   23.28%    passed     81.41%
+  66  PCOR2   23.41%    passed     42.91%
+  67  PCOR3   23.34%    passed     62.99%
+  68  PREI1   22.99%    failed      3.25%
+  69  PBON3   23.85%    passed     41.87%
+  70  FDEN1   31.25%    failed      0.00%
+  71  FDEN3   31.29%    failed      0.00%
+  72  FAPU1   19.61%    passed     64.55%
+  73  FAPU2   19.82%    passed     30.86%
+  74  FAPU3   19.71%    passed     95.55%
+  75  CACA1   19.35%    failed      0.01%
+  76  CACA2   19.39%    failed      0.01%
+  77  CAEL1   21.99%    failed      0.00%
+  78  CAEL2   22.04%    failed      0.00%
+  79  CALO1   18.76%    passed     52.90%
+  80  CATH1   19.52%    failed      0.12%
+  81  CATH2   19.60%    failed      0.49%
+  82  CATH3   19.64%    failed      0.03%
+  83  FDEN2   31.94%    failed      0.00%
+  84  LEAC3   21.94%    failed      0.00%
+  85  LEAC1   21.59%    failed      0.00%
+  86  LEAC2   21.91%    failed      0.00%
+  87  NIRI1   20.99%    failed      1.52%
+  88  NIRI3   21.05%    failed      1.76%
+  89  NIRI2   21.33%    failed      3.34%
+  90  CAIR1   23.13%    failed      0.00%
+  91  CAIR2   23.17%    failed      0.00%
+  92  CAIR3   23.32%    failed      0.00%
+  93  FAIM1   20.72%    failed      3.54%
+  94  FAIM2   20.96%    passed     17.56%
+  95  FAIM3   21.09%    passed     11.30%
+  96  FABR1   26.22%    failed      0.59%
+  97  FABR3   26.26%    failed      1.37%
+  98  FABR2   26.77%    failed      0.13%
+  99  FAPE1   19.42%    passed     24.92%
+ 100  FAPE2   19.47%    passed     10.91%
+ 101  FAPE3   19.56%    passed      7.65%
+ 102  CSEL1   19.84%    failed      0.00%
+ 103  CSEL2   19.90%    failed      0.00%
+ 104  CSEL3   19.93%    failed      0.00%
+ 105  CASE1   23.34%    failed      0.00%
+ 106  CAHU1   18.36%    failed      0.00%
+ 107  CAHU2   18.23%    failed      0.64%
+ 108  CAHU3   18.34%    failed      0.00%
+ 109  CALI2   19.12%    failed      0.03%
+ 110  CAHE2   20.70%    failed      0.00%
+ 111  CAHE3   20.91%    failed      0.00%
+ 112  CALI1   19.05%    failed      0.03%
+ 113  CALI3   19.13%    failed      0.02%
+ 114  CAHE1   20.61%    failed      0.00%
+ 115  CAMI1   22.06%    failed      0.00%
+ 116  CAMI2   22.20%    failed      0.00%
+ 117  CAMI3   22.27%    failed      0.00%
+****  TOTAL   22.71%  85 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading tree /scratch/alpine/pepe8426/DataSet_woCEXC/NT_Aligments/SuperMatrix/IQTree/SuperMatrix_PFCOut.partitions_iqtree.txt.treefile ...
+un-rooted tree with 117 taxa and 231 branches
+Reading tree(s) file /scratch/alpine/pepe8426/DataSet_woCEXC/NT_Aligments/SuperMatrix/PFC_loci.treefile ...
+3672 tree(s) loaded (0 rooted and 3672 unrooted)
+Trees have different number of taxa
+Computing gene concordance factor...
+1.666 sec
+Computing site concordance factor...
+330.009 sec
+Tree with concordance factors written to PFC_Concord.cf.tree
+Annotated tree (best viewed in FigTree) written to PFC_Concord.cf.tree.nex
+Tree with branch IDs written to PFC_Concord.cf.branch
+Concordance factors per branch printed to PFC_Concord.cf.stat
+Date and Time: Wed Mar  8 00:06:36 2023
+Job finished at 00:06:36 Wed 08 Mar 2023
