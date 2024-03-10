@@ -28,9 +28,20 @@ Scripts and data associated with the publication on tree discordance and hybridi
 
 [**12**](Scripts/12_IQTree_ConcordanceFactor.sh) Assess IQTree tree discordance with [ConcordanceFactors](Data/IQTree/IQTree_ConcordanceFactors.919641.out)
 
-## Hybridization analyses
+[**13**](Scripts/13_SVDQuartets.sh) Estimate species tree with [SVDQuartets](Data/SVDQuartets)
 
+## Hybridization analyses
+[**14**](Scripts/14_TrimAligmentsForHyDe.sh) Trim aligments to assess hybridization with HyDe
+
+[**15**](Scripts/15_HyDe.sh) Detect hybridization with [HyDe](Data/HyDe)
+
+[**16**](Scripts/16_QuiBL.sh) Detect hybridizaiton with [QuiBL](Data/QuiBL)
 
 ## Network reconstruction
 
+[**17**](Scripts/17_SNaQ.sh) Infer phylogenetic network with [SNaQ](Data/SNaQ)
+
+[**18**](Scripts/18_PhyloNet.sh) Infer phylogenetic network with [PhyloNet](Data/PhyloNet)
+
+[**19**](Scripts/19_CalculateLhoodPhyloNet.sh) Calculate the [likelihood](Data/PhyloNet/Likelihood) of the PhyloNet networks
 
