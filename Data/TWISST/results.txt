@@ -1,0 +1,3 @@
+Column 1 has the highest value 1002 times
+Column 2 has the highest value 119 times
+Column 3 has the highest value 103 times
