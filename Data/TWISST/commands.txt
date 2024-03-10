@@ -1,1 +1,0 @@
-python /projects/pepe8426/software/twisst/twisst.py -t 1115_bipartition.trees -w output.weights.csv.gz -g Calibrachoa CAIR1,CATH1,CACA1,CASE1,CAPY1,CAHE1,CAOV1 -g Fabiana PEPA1,FABR1,FAPA1,FDEN1 -g Petunia PEEX1,PINT1,PCOR1,PSCH1,PAXI1,PESE1,PBON1 -g Outgroup BOER1
