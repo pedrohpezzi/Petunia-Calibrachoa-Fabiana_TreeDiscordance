@@ -1,5 +1,5 @@
-# *Petunia*-*Calibrachoa*-*Fabiana* Tree discordance and hybridization
-Scripts and data associated with the publication on tree discordance and hybridization in the Petunia-Calibrachoa-Fabiana clade.
+# Tree discordance and hybridization in *Petunia* and related genera
+Scripts and data associated with the publication on tree discordance and hybridization in the *Petunia*-*Calibrachoa*-*Fabiana* clade.
 
 ## Transcriptomic data filtering and processing
 
