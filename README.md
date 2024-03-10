@@ -10,9 +10,19 @@ Scripts and data associated with the publication on tree discordance and hybridi
 
 [**4.**](Scripts/04_Consensus_MostFrequentBase.sh) Call the most frequent base to get the consensus fasta
 
+[**5.**](Scripts/05_ConcatenateFastaByCluster.sh) Combine the FASTA files from multiple individuals into a single FASTA file of the genomic region/cluster/gene.
+
 ## Phylogenomic analyses and tree discordance evaluation
 
+[**6.**](Scripts/06_Align_MACSE.sh) Align the fasta files with MACSE
 
+[**7.**](Scripts/07_RAxML_GeneTrees.sh) Get gene trees with RAxML 
+
+[**8.**](Scripts/08_ASTRAL.sh) Estimate species tree with [ASTRAL](Data/ASTRAL)
+
+[**9.**](Scripts/09_QuartetsSampling.sh) Assess ASTRAL tree discordance with [Quartet Sampling](Data/QuartetSampling)
+
+[**10.**](Scripts/10_phyparts_ICA_onPrunedTrees.sh) Assess ASTRAL tree discordance with [phyparts](Data/phyparts)
 ## Hybridization analyses
 
 
