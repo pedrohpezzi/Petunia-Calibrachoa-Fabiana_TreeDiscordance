@@ -1,0 +1,13 @@
+Job: HyDe_PFC with ID 2770323
+Running on c3cpu-c9-u1-2.rc.int.colorado.edu
+Job started at 12:45:54 Wed 23 Aug 2023
+Directory is /home/pepe8426/Scripts/Analyses
+Using 12 processors across 1 nodes
+
+Running run_hyde_mp.py
+
+Reading input file.....................................................................................................................Done.
+Reading map file  .....................................................................................................................Done.
+
+Analyzing 23310 triple(s) using 12 thread(s).
+Job finished at 17:14:14 Wed 23 Aug 2023
