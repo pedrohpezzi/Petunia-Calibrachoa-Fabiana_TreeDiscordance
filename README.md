@@ -37,7 +37,7 @@ Scripts and data associated with the publication on tree discordance and hybridi
 
 [**16**](Scripts/16_QuiBL.sh) Detect hybridization with [QuiBL](Data/QuiBL).
 
-[**17**](Scripts/17_TWISST.py) Calculate topology weight with [TWISST](Data/TWISST).
+[**17**](Scripts/17_TWISST.py) Calculate topology weight with [Twisst](Data/TWISST).
 
 ## Network reconstruction
 
