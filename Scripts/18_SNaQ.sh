@@ -27,7 +27,7 @@ module load julia
 #Enter directory
 cd $DIRECTORY
 
-#run IQTree
+#run SNaQ
 
 julia runSNaQ.jl 5
 
