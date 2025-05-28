@@ -22,7 +22,7 @@ Scripts and data associated with the publication on tree discordance and hybridi
 
 [**9.**](Scripts/09_QuartetsSampling.sh) Assess ASTRAL tree discordance with [Quartet Sampling](Data/QuartetSampling).
 
-[**10.**](Scripts/10_phyparts_ICA_onPrunedTrees.sh) Assess IQTree tree discordance with[phyparts](Data/phyparts).
+[**10.**](Scripts/10_phyparts_ICA_onPrunedTrees.sh) Assess IQTree tree discordance with [phyparts](Data/phyparts).
 
 [**11.**](Scripts/11_IQTree.sh) Estimate species tree with [IQTree](Data/IQTree).
 
